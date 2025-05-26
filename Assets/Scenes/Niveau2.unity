@@ -147,7 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &10752021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
@@ -172,7 +175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &17428237
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &53581778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
@@ -469,7 +478,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &67656055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2488646483061606077, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
@@ -723,7 +735,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &94768401
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +846,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &109573960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 934638764751399634, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -1289,7 +1307,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &144195641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
@@ -1314,7 +1335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &153565848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2363885541799150647, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -1481,7 +1505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &172517330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,7 +1690,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &202268928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,6 +2229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Green with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 631681890585385247, guid: ba3d6d9d39ece864db4d23301290693f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 1650006661591258338, guid: ba3d6d9d39ece864db4d23301290693f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2517,6 +2552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken Bone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3500325378512108279, guid: 95ba25c767eeddc46899aa0fd76f63be, type: 3}
     m_RemovedGameObjects: []
@@ -2539,6 +2579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Beer Bottle Green with Label (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 631681890585385247, guid: ba3d6d9d39ece864db4d23301290693f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 1650006661591258338, guid: ba3d6d9d39ece864db4d23301290693f,
         type: 3}
@@ -2628,6 +2673,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Red Broke
       objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: f7a38f23e322d4847b9364710a5bb94a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 2483689454324858705, guid: f7a38f23e322d4847b9364710a5bb94a,
         type: 3}
       propertyPath: m_Size.y
@@ -2708,6 +2758,83 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2100610260}
   m_SourcePrefab: {fileID: 100100000, guid: f7a38f23e322d4847b9364710a5bb94a, type: 3}
+--- !u!1001 &253945465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1242842140}
+    m_Modifications:
+    - target: {fileID: 703639341689392469, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Name
+      value: TrashbinYellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.55543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.303504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 117.49756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 703639341689392469, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1732045172}
+  m_SourcePrefab: {fileID: 100100000, guid: 8d1264d958f92714c81f3d43e933b4b7, type: 3}
 --- !u!1 &271441255
 GameObject:
   m_ObjectHideFlags: 0
@@ -7552,6 +7679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple Core Green (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 04de276320549a847b966b845005a946,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
       propertyPath: m_Size.y
@@ -7774,6 +7906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3114425992390493902, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
     m_RemovedGameObjects: []
@@ -7901,7 +8038,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &336394064
 GameObject:
   m_ObjectHideFlags: 0
@@ -8009,7 +8149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &347305206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a,
@@ -8034,7 +8177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &349005159
 GameObject:
   m_ObjectHideFlags: 0
@@ -8179,7 +8325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &360483511
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,6 +8849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Red Broke 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 762317242892115654, guid: 77557de5dd98b0f4c9dc7532951a0960, type: 3}
     m_RemovedGameObjects: []
@@ -8734,7 +8888,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &431084690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8762,6 +8919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wine Glass
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016437080816719917, guid: 20015f6b666c370449474a2775a04479,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 8617810735975715772, guid: 20015f6b666c370449474a2775a04479,
         type: 3}
@@ -8990,6 +9152,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 5438048726324099442, guid: 2d6b1262a50aace469e5f5bf10e390fb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 8810961958893650871, guid: 2d6b1262a50aace469e5f5bf10e390fb,
         type: 3}
       propertyPath: m_Size.y
@@ -9067,7 +9234,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &448824811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8731730664742620029, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -9468,7 +9638,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &495820784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
@@ -9493,7 +9666,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &496825535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9521,6 +9697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish Bone 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
@@ -9606,7 +9787,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &513637250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9635,6 +9819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 7512023185531021596, guid: 0f19a732006400947981c8a94548a823,
         type: 3}
@@ -9707,12 +9896,12 @@ PrefabInstance:
     - target: {fileID: -2865801498795934233, guid: 95ba25c767eeddc46899aa0fd76f63be,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.14628968
+      value: 0.47177294
       objectReference: {fileID: 0}
     - target: {fileID: -2865801498795934233, guid: 95ba25c767eeddc46899aa0fd76f63be,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.04670544
+      value: 0.20944707
       objectReference: {fileID: 0}
     - target: {fileID: -2865801498795934233, guid: 95ba25c767eeddc46899aa0fd76f63be,
         type: 3}
@@ -9778,6 +9967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chicken Bone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3500325378512108279, guid: 95ba25c767eeddc46899aa0fd76f63be, type: 3}
@@ -9956,7 +10150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &557293633
 GameObject:
   m_ObjectHideFlags: 0
@@ -10201,6 +10398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red
       objectReference: {fileID: 0}
+    - target: {fileID: 1892776325915541104, guid: d2d635fe52f0fa04f87e06e3d24f172d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4193919340207825745, guid: d2d635fe52f0fa04f87e06e3d24f172d, type: 3}
     m_RemovedGameObjects: []
@@ -10235,7 +10437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &597231332
 GameObject:
   m_ObjectHideFlags: 0
@@ -10343,7 +10548,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &604394844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2033160906336582249, guid: 92d7833af3c71c04e99615a4db4adfeb,
@@ -10368,7 +10576,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &605172472
 GameObject:
   m_ObjectHideFlags: 0
@@ -10598,6 +10809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish Bone 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10682,7 +10898,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &633133281
 GameObject:
   m_ObjectHideFlags: 0
@@ -10884,6 +11103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish Bone 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10968,7 +11192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &647206755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1050564808656064037, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -11334,6 +11561,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1440290188}
+  - {fileID: 827449800}
+  - {fileID: 1330310295}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11634,7 +11863,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &686994749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2889393580701724107, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -12495,6 +12727,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish Bone 2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12750,6 +12987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple Core Red
       objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 7512023185531021596, guid: 0f19a732006400947981c8a94548a823,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12834,7 +13076,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &755135773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4040659791692410020, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -13196,7 +13441,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &786074023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa,
@@ -13221,7 +13469,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &792381732
 GameObject:
   m_ObjectHideFlags: 0
@@ -13290,6 +13541,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &793673086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4602025962161850522, guid: 3773d0ae256dc594ea12defa93a67c26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2034552032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &793673087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2034552032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &793673091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793673086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c9c2aba5a694642b4e279678042487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typePoubelle: 0
 --- !u!1001 &795161463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13368,6 +13644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Red Broke 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 762317242892115654, guid: 77557de5dd98b0f4c9dc7532951a0960, type: 3}
     m_RemovedGameObjects: []
@@ -13390,6 +13671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79,
         type: 3}
@@ -13533,6 +13819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Beer Bottle Red with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 6477601679326300577, guid: 23aff9c48b65f194ebd7a8e6221879b7,
         type: 3}
@@ -13726,6 +14017,140 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2805489461044595255, guid: 4256567a4b8996d4088c0d05439e595c, type: 3}
+--- !u!1 &827449799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827449800}
+  - component: {fileID: 827449802}
+  - component: {fileID: 827449801}
+  m_Layer: 5
+  m_Name: ScoreTextRecyclage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &827449800
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827449799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 670778063}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -152.8, y: 71.3}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &827449801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827449799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Poubelle: 0'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &827449802
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827449799}
+  m_CullTransparentMesh: 1
 --- !u!1 &831410402 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
@@ -13750,7 +14175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &845264707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4784673190157663810, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -13917,7 +14345,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &857506931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13945,6 +14376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish Bone 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
@@ -14182,7 +14618,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &887499050
 GameObject:
   m_ObjectHideFlags: 0
@@ -14291,6 +14730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Beer Bottle Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892776325915541104, guid: d2d635fe52f0fa04f87e06e3d24f172d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4193919340207825745, guid: d2d635fe52f0fa04f87e06e3d24f172d, type: 3}
@@ -14806,7 +15250,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &930354494 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3230034147011233538, guid: c840387747cb48f409bf9c9708a4d90d,
@@ -14831,7 +15278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &933913833 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 395689197744629049, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -15124,7 +15574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &945763359
 GameObject:
   m_ObjectHideFlags: 0
@@ -15491,6 +15944,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Broken Pottery 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2033160906336582249, guid: 92d7833af3c71c04e99615a4db4adfeb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 8682494056855471041, guid: 92d7833af3c71c04e99615a4db4adfeb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15856,6 +16314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken Bone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3500325378512108279, guid: 95ba25c767eeddc46899aa0fd76f63be, type: 3}
     m_RemovedGameObjects: []
@@ -15894,7 +16357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &966546130
 GameObject:
   m_ObjectHideFlags: 0
@@ -16159,6 +16625,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green
       objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: aa4f21526d30160478987ff6145507a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: aa4f21526d30160478987ff6145507a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16256,6 +16727,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mug White Broken (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 6778242542278737971, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
         type: 3}
@@ -16676,7 +17152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1031296105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3837241964131129987, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -16760,7 +17239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1034036294
 GameObject:
   m_ObjectHideFlags: 0
@@ -16911,6 +17393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vodka Bottle with label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761393018483043083, guid: d43ac3b4de4cbc345a113860f8977fb2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 6643357819061642998, guid: d43ac3b4de4cbc345a113860f8977fb2,
         type: 3}
@@ -17114,7 +17601,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1080873999
 GameObject:
   m_ObjectHideFlags: 0
@@ -17783,7 +18273,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1125289170
 GameObject:
   m_ObjectHideFlags: 0
@@ -17891,7 +18384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1137037247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9079580285254665744, guid: 5c5315a832f1fa040b2831c887de01f8,
@@ -17916,7 +18412,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1152430997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3997467548074915120, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -18250,7 +18749,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1179990601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18263,6 +18765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Beer Bottle Blue with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406732096623023888, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 3559264064031709933, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
         type: 3}
@@ -18561,7 +19068,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1196852455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
@@ -18586,7 +19096,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1203301146
 GameObject:
   m_ObjectHideFlags: 0
@@ -18645,7 +19158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1218225324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
@@ -18670,7 +19186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1219107970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -975130724216747548, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -18754,7 +19273,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1235020940
 GameObject:
   m_ObjectHideFlags: 0
@@ -18867,6 +19389,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1732045168}
+  - {fileID: 1659939991}
+  - {fileID: 793673087}
   - {fileID: 2096956253}
   m_Father: {fileID: 966546131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18948,6 +19473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1892776325915541104, guid: d2d635fe52f0fa04f87e06e3d24f172d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4193919340207825745, guid: d2d635fe52f0fa04f87e06e3d24f172d, type: 3}
     m_RemovedGameObjects: []
@@ -18982,7 +19512,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1268869958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19060,6 +19593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -2249753185411240690, guid: 8330d6a315e0fbb47a53be06e566ae6f, type: 3}
@@ -19320,7 +19858,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1286069683
 GameObject:
   m_ObjectHideFlags: 0
@@ -19428,7 +19969,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
+--- !u!1001 &1289544783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1242842140}
+    m_Modifications:
+    - target: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Name
+      value: TrashbinGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.558424
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.303505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 107.38028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7230685
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6907764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 87.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1659939995}
+  m_SourcePrefab: {fileID: 100100000, guid: 1a570f403ac9fbc439ef2f8f8fbaed19, type: 3}
 --- !u!1 &1292064067
 GameObject:
   m_ObjectHideFlags: 0
@@ -19676,7 +20297,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1318426670 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
@@ -19701,7 +20325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1320130124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3406732096623023888, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
@@ -19726,7 +20353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1327177439
 GameObject:
   m_ObjectHideFlags: 0
@@ -19894,6 +20524,140 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7985498052725515047, guid: 4256567a4b8996d4088c0d05439e595c, type: 3}
+--- !u!1 &1330310294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1330310295}
+  - component: {fileID: 1330310297}
+  - component: {fileID: 1330310296}
+  m_Layer: 5
+  m_Name: ScoreTextComposte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1330310295
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330310294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 670778063}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -155.3, y: 35.2}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1330310296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330310294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Composte: 0'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -15.110916, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1330310297
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330310294}
+  m_CullTransparentMesh: 1
 --- !u!1 &1343088579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
@@ -20276,10 +21040,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple Core Green (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 04de276320549a847b966b845005a946,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.17889611
+      value: 0.4605629
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -20289,7 +21058,7 @@ PrefabInstance:
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.028778084
+      value: 0.16961147
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -20438,6 +21207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chicken Bone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3500325378512108279, guid: 95ba25c767eeddc46899aa0fd76f63be, type: 3}
@@ -20651,6 +21425,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish Bone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5438048726324099442, guid: 2d6b1262a50aace469e5f5bf10e390fb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 8810961958893650871, guid: 2d6b1262a50aace469e5f5bf10e390fb,
         type: 3}
       propertyPath: m_Size.y
@@ -20783,7 +21562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1429395761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20812,6 +21594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 7512023185531021596, guid: 0f19a732006400947981c8a94548a823,
         type: 3}
@@ -20910,6 +21697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mug White Broken
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 6778242542278737971, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
         type: 3}
@@ -21078,7 +21870,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1436747620
 GameObject:
   m_ObjectHideFlags: 0
@@ -21186,7 +21981,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1440290187
 GameObject:
   m_ObjectHideFlags: 0
@@ -21199,7 +21997,7 @@ GameObject:
   - component: {fileID: 1440290190}
   - component: {fileID: 1440290189}
   m_Layer: 5
-  m_Name: ScoreText
+  m_Name: ScoreTextPoubelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21244,7 +22042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score : 0'
+  m_text: 'Recyclage: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21272,8 +22070,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21308,7 +22106,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -13.851639, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21429,7 +22227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1461071414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21788,6 +22589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green Broke (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21931,7 +22737,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1501740636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22167,6 +22976,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3500325378512108279, guid: 95ba25c767eeddc46899aa0fd76f63be, type: 3}
     m_RemovedGameObjects: []
@@ -22205,6 +23019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Red (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 7512023185531021596, guid: 0f19a732006400947981c8a94548a823,
         type: 3}
@@ -22514,7 +23333,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1523396383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22843,6 +23665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green Broke 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -2249753185411240690, guid: 8330d6a315e0fbb47a53be06e566ae6f, type: 3}
     m_RemovedGameObjects: []
@@ -22877,7 +23704,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1547057623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 923312043365439577, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -22961,7 +23791,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1549697188
 GameObject:
   m_ObjectHideFlags: 0
@@ -23130,6 +23963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Half Eaten Cheeseburger (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
+      objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769239, guid: 20f6fca5559075148b1e6d06957f81ea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23214,7 +24052,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1579310043 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
@@ -23239,7 +24080,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1581445094
 GameObject:
   m_ObjectHideFlags: 0
@@ -23447,6 +24291,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Green
       objectReference: {fileID: 0}
+    - target: {fileID: 531162568926729478, guid: 9771556f1f5c8c646851f15e0d8d3b7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 1542116596272152122, guid: 9771556f1f5c8c646851f15e0d8d3b7e,
         type: 3}
       propertyPath: m_Size.y
@@ -23546,7 +24395,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1627815230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23584,6 +24436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Half Eaten Cheeseburger (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769239, guid: 20f6fca5559075148b1e6d06957f81ea,
         type: 3}
@@ -23669,7 +24526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1646495267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23815,7 +24675,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
+--- !u!1 &1659939990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1289544783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1659939991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4228343360813323982, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1289544783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1659939995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659939990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c9c2aba5a694642b4e279678042487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typePoubelle: 2
 --- !u!1 &1687106026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
@@ -23840,7 +24728,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!54 &1687106033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24155,7 +25046,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1709010742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8220415451084285245, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -24437,7 +25331,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1727061665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6593828347086394487, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -24497,6 +25394,31 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 83be61748db9e0f4787ad92d648176cf, type: 2}
   m_BuildHeightMesh: 0
+--- !u!1 &1732045167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 703639341689392469, guid: 8d1264d958f92714c81f3d43e933b4b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 253945465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1732045168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4582568305846665030, guid: 8d1264d958f92714c81f3d43e933b4b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 253945465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1732045172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732045167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c9c2aba5a694642b4e279678042487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typePoubelle: 1
 --- !u!1001 &1734729845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24525,6 +25447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 7512023185531021596, guid: 0f19a732006400947981c8a94548a823,
         type: 3}
@@ -24706,6 +25633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mug White Broken (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 6778242542278737971, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
         type: 3}
@@ -25108,6 +26040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Broken Pottery 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2033160906336582249, guid: 92d7833af3c71c04e99615a4db4adfeb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 8682494056855471041, guid: 92d7833af3c71c04e99615a4db4adfeb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25368,7 +26305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1815586094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25447,6 +26387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Red Broke 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 762317242892115654, guid: 77557de5dd98b0f4c9dc7532951a0960, type: 3}
     m_RemovedGameObjects: []
@@ -25489,6 +26434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke
+      objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a,
         type: 3}
@@ -25574,7 +26524,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1831064021
 GameObject:
   m_ObjectHideFlags: 0
@@ -25639,6 +26592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Half Eaten Cheeseburger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769239, guid: 20f6fca5559075148b1e6d06957f81ea,
         type: 3}
@@ -25724,7 +26682,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1853089483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25842,7 +26803,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 1
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 1330310296}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1857609266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25870,6 +26834,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish Bone 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 1941591342401959173, guid: 9f4eb6324d951e44db05ce09a003bb0f,
         type: 3}
@@ -26077,7 +27046,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1877525710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5102017246056220404, guid: d346a7c25a992d94a9a1af7f234074b3,
@@ -26102,7 +27074,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1 &1878464860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 995035922346159162, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -26368,6 +27343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 04de276320549a847b966b845005a946,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -31386,7 +32366,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1945292993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a,
@@ -31411,7 +32394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1951851500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31424,6 +32410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 04de276320549a847b966b845005a946,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -31529,7 +32520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1968721133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31567,6 +32561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Half Eaten Cheeseburger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769239, guid: 20f6fca5559075148b1e6d06957f81ea,
         type: 3}
@@ -31853,6 +32852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vodka Bottle with label (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4761393018483043083, guid: d43ac3b4de4cbc345a113860f8977fb2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 6643357819061642998, guid: d43ac3b4de4cbc345a113860f8977fb2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32111,7 +33115,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2022573671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3642911465234031050, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -32379,37 +33386,37 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1242842140}
     m_Modifications:
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.048883
+      value: 24.957846
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14834574
+      value: -11.303504
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.392616
+      value: 102.04636
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.0071045975
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.9999748
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
@@ -32424,7 +33431,7 @@ PrefabInstance:
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.186
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
@@ -32436,10 +33443,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrashbinBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4602025962161850522, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 793673091}
   m_SourcePrefab: {fileID: 100100000, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
 --- !u!1 &2060590405 stripped
 GameObject:
@@ -32524,7 +33540,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 0
+  scoreRecyclageText: {fileID: 827449801}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 0}
 --- !u!1001 &2074440616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32537,6 +33556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple Core Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 124406358728296116, guid: 04de276320549a847b966b845005a946,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -32680,6 +33704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish Bone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438048726324099442, guid: 2d6b1262a50aace469e5f5bf10e390fb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Composte
       objectReference: {fileID: 0}
     - target: {fileID: 8810961958893650871, guid: 2d6b1262a50aace469e5f5bf10e390fb,
         type: 3}
@@ -32932,7 +33961,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &2102641899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32965,6 +33997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vodka Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 52cee41ff0ee4e24288d803c2f29b7a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 52cee41ff0ee4e24288d803c2f29b7a8,
         type: 3}
@@ -33171,7 +34208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2128283596 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
@@ -33196,7 +34236,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd2cf982937694aa93cf1bb642bd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1440290189}
+  type: 2
+  scoreRecyclageText: {fileID: 0}
+  scoreComposteText: {fileID: 0}
+  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2138475663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7715995189425408692, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -33483,6 +34526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Blue with Label (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3406732096623023888, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Poubelle
+      objectReference: {fileID: 0}
     - target: {fileID: 3559264064031709933, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33571,4 +34619,3 @@ SceneRoots:
   - {fileID: 1116837549}
   - {fileID: 670778063}
   - {fileID: 792381735}
-  - {fileID: 2034552032}

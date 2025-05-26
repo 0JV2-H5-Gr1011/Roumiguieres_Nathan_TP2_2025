@@ -7,6 +7,8 @@ TagManager:
   - CinemachineTarget
   - Dechet
   - Recyclage
+  - Poubelle
+  - Composte
   layers:
   - Default
   - TransparentFX
