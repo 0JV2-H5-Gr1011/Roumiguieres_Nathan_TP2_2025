@@ -4,30 +4,29 @@ using UnityEngine;
 using TMPro;
 
 
-public class RecupDechets : MonoBehaviour
+public class RecupDechetsNiv1 : MonoBehaviour
 {
-    public static int score = 0; // score global
-    public TextMeshProUGUI scoreText; // à assigner dans l'inspecteur
+    public int score = 0;
+    public TextMeshProUGUI scoreText;
+    public GameObject poubelle; // Assigner dans l'inspecteur
 
-    void OnTriggerEnter(Collider other)
+    void Start()
     {
-        if (other.CompareTag("Player"))
-        {
-            score++; // augmente le score
-            UpdateScoreText(); // met à jour l'affichage
-            Destroy(gameObject); // détruit le déchet
-        }
+        scoreText.text = "Score : " + score;
     }
 
-    void UpdateScoreText()
+    private void OnTriggerEnter(Collider other)
     {
-        if (scoreText != null)
+        if (other.CompareTag("Dechet"))
         {
+            Destroy(other.gameObject);
+            score++;
             scoreText.text = "Score : " + score;
-        }
-        else
-        {
-            Debug.LogWarning("Aucun texte de score assigné !");
+
+            if (score >= 8)
+            {
+                poubelle.SetActive(true); // On active la poubelle
+            }
         }
     }
 }
