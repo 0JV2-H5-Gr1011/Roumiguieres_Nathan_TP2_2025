@@ -6,28 +6,51 @@ using TMPro;
 
 public class RecupDechets : MonoBehaviour
 {
-    public static int score = 0; // score global
-    public TextMeshProUGUI scoreText; // à assigner dans l'inspecteur
+    public enum TypeDechet { Recyclage, Composte, Poubelle }
+    public TypeDechet type; // assigner dans l'inspecteur sur chaque déchet
 
-    void OnTriggerEnter(Collider other)
+    public static int scoreRecyclage = 0;
+    public static int scoreComposte = 0;
+    public static int scorePoubelle = 0;
+
+    public TextMeshProUGUI scoreRecyclageText;
+    public TextMeshProUGUI scoreComposteText;
+    public TextMeshProUGUI scorePoubelleText;
+
+    private void Start()
+    {
+        UpdateAllScoreTexts();
+    }
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            score++; // augmente le score
-            UpdateScoreText(); // met à jour l'affichage
-            Destroy(gameObject); // détruit le déchet
+            switch (type)
+            {
+                case TypeDechet.Recyclage:
+                    scoreRecyclage++;
+                    break;
+                case TypeDechet.Composte:
+                    scoreComposte++;
+                    break;
+                case TypeDechet.Poubelle:
+                    scorePoubelle++;
+                    break;
+            }
+
+            UpdateAllScoreTexts();
+            Destroy(gameObject);
         }
     }
 
-    void UpdateScoreText()
+    private void UpdateAllScoreTexts()
     {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score : " + score;
-        }
-        else
-        {
-            Debug.LogWarning("Aucun texte de score assigné !");
-        }
+        if (scoreRecyclageText != null)
+            scoreRecyclageText.text = "Recyclage : " + scoreRecyclage;
+        if (scoreComposteText != null)
+            scoreComposteText.text = "Composte : " + scoreComposte;
+        if (scorePoubelleText != null)
+            scorePoubelleText.text = "Poubelle : " + scorePoubelle;
     }
 }

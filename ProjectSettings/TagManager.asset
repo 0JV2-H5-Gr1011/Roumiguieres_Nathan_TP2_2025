@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Dechet
+  - Recyclage
   layers:
   - Default
   - TransparentFX
