@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 
-public class RecupDechets : MonoBehaviour
+public class RecupDechetsNiv1 : MonoBehaviour
 {
     public static int score = 0; // score global
     public TextMeshProUGUI scoreText; // à assigner dans l'inspecteur
