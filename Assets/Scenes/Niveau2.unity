@@ -28073,6 +28073,53 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6761115400651726006, guid: ef8d4c7b7e6901242b18692d2fa01c77, type: 3}
+--- !u!1 &463231861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 463231863}
+  - component: {fileID: 463231862}
+  m_Layer: 0
+  m_Name: GestionnaireScore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &463231862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463231861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741582c8b4c144c4bbcc25c995a488a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recyclageText: {fileID: 1440290189}
+  composteText: {fileID: 1330310296}
+  poubelleText: {fileID: 827449801}
+--- !u!4 &463231863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463231861}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 861.45703, y: 606.3444, z: 2.2650368}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463335143 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2743991894301418099, guid: ef8d4c7b7e6901242b18692d2fa01c77,
@@ -49984,7 +50031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7e56cd5d53b60740ade54ebef60c040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 600
+  timeRemaining: 120
   timerText: {fileID: 2007340246}
 --- !u!4 &909082601
 Transform:
@@ -111607,3 +111654,4 @@ SceneRoots:
   - {fileID: 1831064022}
   - {fileID: 909082601}
   - {fileID: 1740075896}
+  - {fileID: 463231863}

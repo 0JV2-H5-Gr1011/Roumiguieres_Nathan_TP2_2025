@@ -8,11 +8,34 @@ public class RecupDechets : MonoBehaviour
     public enum TypeDechet { Recyclage, Composte, Poubelle }
     public TypeDechet type;
 
-    private void OnTriggerEnter(Collider other)
+    public static int scoreRecyclage = 0;
+    public static int scoreComposte = 0;
+    public static int scorePoubelle = 0;
+
+    public static int scoreTotalRecyclage = 0;
+    public static int scoreTotalComposte = 0;
+    public static int scoreTotalPoubelle = 0;
+
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.Instance.AjouterScore(type);
+            switch (type)
+            {
+                case TypeDechet.Recyclage:
+                    scoreRecyclage++;
+                    scoreTotalRecyclage++;
+                    break;
+                case TypeDechet.Composte:
+                    scoreComposte++;
+                    scoreTotalComposte++;
+                    break;
+                case TypeDechet.Poubelle:
+                    scorePoubelle++;
+                    scoreTotalPoubelle++;
+                    break;
+            }
+
             Destroy(gameObject);
         }
     }
