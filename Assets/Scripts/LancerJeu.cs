@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class LancerJeu : MonoBehaviour
 {
-    public void ChargerScene()
+    public TMP_InputField inputNom;
+
+    public void LancerNiveau1()
     {
-        SceneManager.LoadScene("Niveau1");
+        NomJoueurManager.nomJoueur = inputNom.text;
+        SceneManager.LoadScene("Niveau1"); // ou le nom exact de ta scène
     }
 }

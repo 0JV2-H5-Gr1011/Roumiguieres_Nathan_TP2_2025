@@ -775,7 +775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 114440364}
-  - component: {fileID: 114440363}
+  - component: {fileID: 114440365}
   m_Layer: 0
   m_Name: LancerJeu
   m_TagString: Untagged
@@ -783,18 +783,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114440363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114440362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20f1c3d0b41685f4f93090bb443bc02e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &114440364
 Transform:
   m_ObjectHideFlags: 0
@@ -810,6 +798,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1547793383}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114440365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114440362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f1c3d0b41685f4f93090bb443bc02e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputNom: {fileID: 1685659053}
 --- !u!64 &120612558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7005,9 +7006,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114440363}
+      - m_Target: {fileID: 114440365}
         m_TargetAssemblyTypeName: LancerJeu, Assembly-CSharp
-        m_MethodName: ChargerScene
+        m_MethodName: LancerNiveau1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
