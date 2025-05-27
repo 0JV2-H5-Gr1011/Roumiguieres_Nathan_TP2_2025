@@ -148,9 +148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &10752021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
@@ -176,9 +173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &17428237
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,9 +445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &53581778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
@@ -479,9 +470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &67656055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2488646483061606077, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
@@ -624,6 +612,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73273180}
   m_Mesh: {fileID: -3959075476843439929, guid: 4256567a4b8996d4088c0d05439e595c, type: 3}
+--- !u!1 &77113082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77113084}
+  - component: {fileID: 77113083}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &77113083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77113082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b06a55978ad044f9736fd2acf8b9e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreRecyclage: 0
+  scoreComposte: 0
+  scorePoubelle: 0
+  texteRecyclage: {fileID: 827449801}
+  texteComposte: {fileID: 1330310296}
+  textePoubelle: {fileID: 1440290189}
+--- !u!4 &77113084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77113082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 164.9201, y: -39.69319, z: -0.03949465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &79859985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5989348164165041377, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -736,9 +774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &94768401
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,9 +882,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &109573960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 934638764751399634, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -1308,9 +1340,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &144195641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124406358728296116, guid: 0f19a732006400947981c8a94548a823,
@@ -1336,9 +1365,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &153565848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2363885541799150647, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -1506,9 +1532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &172517330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1691,9 +1714,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &202268928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2843,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.1312885
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.3105559
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.1175518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.03790188
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.65527785
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.028458595
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424084271720105895, guid: 8d1264d958f92714c81f3d43e933b4b7,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -2833,7 +2883,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 703639341689392469, guid: 8d1264d958f92714c81f3d43e933b4b7,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1732045172}
+      addedObject: {fileID: 1732045176}
   m_SourcePrefab: {fileID: 100100000, guid: 8d1264d958f92714c81f3d43e933b4b7, type: 3}
 --- !u!1 &271441255
 GameObject:
@@ -8039,9 +8089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &336394064
 GameObject:
   m_ObjectHideFlags: 0
@@ -8150,9 +8197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &347305206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a,
@@ -8178,9 +8222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &349005159
 GameObject:
   m_ObjectHideFlags: 0
@@ -8326,9 +8367,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &360483511
 GameObject:
   m_ObjectHideFlags: 0
@@ -8611,8 +8649,23 @@ PrefabInstance:
       value: parco con fontana
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4862179727814702614, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
+    - {fileID: 6163578679112727490, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
+    - {fileID: 6919483334105176361, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 392963922}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
+        type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 562025668}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
+        type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1427274218}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb,
         type: 3}
@@ -8712,6 +8765,90 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 3f9f452196f146f48b16d1a2c6f619fa, type: 2}
   m_BuildHeightMesh: 0
+--- !u!1 &392963921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392963922}
+  - component: {fileID: 392963924}
+  - component: {fileID: 392963923}
+  m_Layer: 0
+  m_Name: barre verticali.001 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &392963922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392963921}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -25.6, y: 2.8342545, z: 3.47}
+  m_LocalScale: {x: 36.425743, y: 37.27111, z: 56.896137}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 363289700}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &392963923
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392963921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0df2498b6873fcc448c6718414a8a870, type: 2}
+  - {fileID: 2100000, guid: f43aacb97c992924bb729639f2619f61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &392963924
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392963921}
+  m_Mesh: {fileID: 4238063402125406619, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
 --- !u!1 &394161183 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3617292973515649115, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -8889,9 +9026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &431084690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9235,9 +9369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &448824811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8731730664742620029, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -9639,9 +9770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &495820784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1153803601918318987, guid: 95ba25c767eeddc46899aa0fd76f63be,
@@ -9667,9 +9795,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &496825535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9788,9 +9913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &513637250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10151,9 +10273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &557293633
 GameObject:
   m_ObjectHideFlags: 0
@@ -10237,6 +10356,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557293633}
   m_Mesh: {fileID: 5508322429033080420, guid: 4256567a4b8996d4088c0d05439e595c, type: 3}
+--- !u!1 &562025667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562025668}
+  - component: {fileID: 562025670}
+  - component: {fileID: 562025669}
+  m_Layer: 0
+  m_Name: barre verticali.001 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562025668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562025667}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -3.457, y: 2.8342545, z: -32.424}
+  m_LocalScale: {x: 36.425743, y: 37.27111, z: 56.896137}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 363289700}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!23 &562025669
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562025667}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0df2498b6873fcc448c6718414a8a870, type: 2}
+  - {fileID: 2100000, guid: f43aacb97c992924bb729639f2619f61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &562025670
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562025667}
+  m_Mesh: {fileID: 4238063402125406619, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
 --- !u!1 &571197274
 GameObject:
   m_ObjectHideFlags: 0
@@ -10438,9 +10641,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &597231332
 GameObject:
   m_ObjectHideFlags: 0
@@ -10549,9 +10749,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &604394844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2033160906336582249, guid: 92d7833af3c71c04e99615a4db4adfeb,
@@ -10577,9 +10774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &605172472
 GameObject:
   m_ObjectHideFlags: 0
@@ -10899,9 +11093,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &633133281
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,9 +11384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &647206755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1050564808656064037, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -11864,9 +12052,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &686994749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2889393580701724107, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -13077,9 +13262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &755135773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4040659791692410020, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -13415,7 +13597,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1820318576}
+      addedObject: {fileID: 1820318580}
   m_SourcePrefab: {fileID: 100100000, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
 --- !u!1 &781004835 stripped
 GameObject:
@@ -13442,9 +13624,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &786074023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa,
@@ -13470,9 +13649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &792381732
 GameObject:
   m_ObjectHideFlags: 0
@@ -13553,7 +13729,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2034552032}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &793673091
+--- !u!114 &793673095
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14176,9 +14352,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &845264707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4784673190157663810, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -14346,9 +14519,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &857506931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14619,9 +14789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &887499050
 GameObject:
   m_ObjectHideFlags: 0
@@ -15251,9 +15418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &930354494 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3230034147011233538, guid: c840387747cb48f409bf9c9708a4d90d,
@@ -15279,9 +15443,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &933913833 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 395689197744629049, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -15575,9 +15736,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &945763359
 GameObject:
   m_ObjectHideFlags: 0
@@ -16358,9 +16516,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &966546130
 GameObject:
   m_ObjectHideFlags: 0
@@ -17153,9 +17308,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1031296105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3837241964131129987, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -17240,9 +17392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1034036294
 GameObject:
   m_ObjectHideFlags: 0
@@ -17602,9 +17751,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1080873999
 GameObject:
   m_ObjectHideFlags: 0
@@ -18274,9 +18420,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1125289170
 GameObject:
   m_ObjectHideFlags: 0
@@ -18385,9 +18528,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1137037247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9079580285254665744, guid: 5c5315a832f1fa040b2831c887de01f8,
@@ -18413,9 +18553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1152430997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3997467548074915120, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -18750,9 +18887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1179990601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19069,9 +19203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1196852455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
@@ -19097,9 +19228,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1203301146
 GameObject:
   m_ObjectHideFlags: 0
@@ -19159,9 +19287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1218225324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407259320375552932, guid: f28785f5d61fb5041ad3d9ba8f5d8e4c,
@@ -19187,9 +19312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1219107970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -975130724216747548, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -19274,9 +19396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1235020940
 GameObject:
   m_ObjectHideFlags: 0
@@ -19513,9 +19632,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1268869958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19859,9 +19975,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1286069683
 GameObject:
   m_ObjectHideFlags: 0
@@ -19970,9 +20083,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1289544783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20038,6 +20148,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.159329
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.3630894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.2187015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.008007765
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.6815446
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.025177002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652208376050216495, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -20048,7 +20188,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1659939995}
+      addedObject: {fileID: 1659939999}
   m_SourcePrefab: {fileID: 100100000, guid: 1a570f403ac9fbc439ef2f8f8fbaed19, type: 3}
 --- !u!1 &1292064067
 GameObject:
@@ -20298,9 +20438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1318426670 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6143752882634769234, guid: 20f6fca5559075148b1e6d06957f81ea,
@@ -20326,9 +20463,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1320130124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3406732096623023888, guid: b39bc46f5f5fc5243bb9c1ec0245b63a,
@@ -20354,9 +20488,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1327177439
 GameObject:
   m_ObjectHideFlags: 0
@@ -21563,9 +21694,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
+--- !u!1 &1427274217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427274218}
+  - component: {fileID: 1427274220}
+  - component: {fileID: 1427274219}
+  m_Layer: 0
+  m_Name: barre verticali.001 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427274218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427274217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 25.6, y: 2.8342545, z: -3.42}
+  m_LocalScale: {x: 36.425743, y: 37.27111, z: 56.896137}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 363289700}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
+--- !u!23 &1427274219
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427274217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0df2498b6873fcc448c6718414a8a870, type: 2}
+  - {fileID: 2100000, guid: f43aacb97c992924bb729639f2619f61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1427274220
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427274217}
+  m_Mesh: {fileID: 4238063402125406619, guid: 8b1ddf9c8fc39cf40a69b519ce3c13cb, type: 3}
 --- !u!1001 &1429395761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21871,9 +22083,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1436747620
 GameObject:
   m_ObjectHideFlags: 0
@@ -21982,9 +22191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1440290187
 GameObject:
   m_ObjectHideFlags: 0
@@ -22228,9 +22434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1461071414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22738,9 +22941,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1501740636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23334,9 +23534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1523396383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23705,9 +23902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1547057623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 923312043365439577, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -23792,9 +23986,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1549697188
 GameObject:
   m_ObjectHideFlags: 0
@@ -24053,9 +24244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1579310043 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 8330d6a315e0fbb47a53be06e566ae6f,
@@ -24081,9 +24269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1581445094
 GameObject:
   m_ObjectHideFlags: 0
@@ -24396,9 +24581,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1627815230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24527,9 +24709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1646495267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24676,9 +24855,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1659939990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19,
@@ -24691,7 +24867,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1289544783}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1659939995
+--- !u!114 &1659939999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24729,9 +24905,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!54 &1687106033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25047,9 +25220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1709010742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8220415451084285245, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -25332,9 +25502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1727061665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6593828347086394487, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -25406,7 +25573,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 253945465}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1732045172
+--- !u!114 &1732045176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26306,9 +26473,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1815586094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26512,7 +26676,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 779750264}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1820318576
+--- !u!114 &1820318580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26525,9 +26689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1831064021
 GameObject:
   m_ObjectHideFlags: 0
@@ -26683,9 +26844,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1853089483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26804,9 +26962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 1330310296}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1857609266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27047,9 +27202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1877525710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5102017246056220404, guid: d346a7c25a992d94a9a1af7f234074b3,
@@ -27075,9 +27227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1 &1878464860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 995035922346159162, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -32367,9 +32516,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &1945292993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a,
@@ -32395,9 +32541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &1951851500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32521,9 +32664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &1968721133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33116,9 +33256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2022573671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3642911465234031050, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -33445,6 +33582,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.1090937
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.3039706
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.2733389
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.026399493
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.65198386
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.007719844
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032054342236209768, guid: 3773d0ae256dc594ea12defa93a67c26,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -33455,7 +33622,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4602025962161850522, guid: 3773d0ae256dc594ea12defa93a67c26,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 793673091}
+      addedObject: {fileID: 793673095}
   m_SourcePrefab: {fileID: 100100000, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
 --- !u!1 &2060590405 stripped
 GameObject:
@@ -33541,9 +33708,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  scoreRecyclageText: {fileID: 827449801}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 0}
 --- !u!1001 &2074440616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33565,7 +33729,7 @@ PrefabInstance:
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.20450573
+      value: 0.35748607
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -33575,7 +33739,7 @@ PrefabInstance:
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.04158289
+      value: 0.118073076
       objectReference: {fileID: 0}
     - target: {fileID: 2557948418060459380, guid: 04de276320549a847b966b845005a946,
         type: 3}
@@ -33962,9 +34126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1001 &2102641899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34209,9 +34370,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2128283596 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8322863303335674192, guid: 77557de5dd98b0f4c9dc7532951a0960,
@@ -34237,9 +34395,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  scoreRecyclageText: {fileID: 0}
-  scoreComposteText: {fileID: 0}
-  scorePoubelleText: {fileID: 1440290189}
 --- !u!1 &2138475663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7715995189425408692, guid: 4256567a4b8996d4088c0d05439e595c,
@@ -34619,3 +34774,4 @@ SceneRoots:
   - {fileID: 1116837549}
   - {fileID: 670778063}
   - {fileID: 792381735}
+  - {fileID: 77113084}
