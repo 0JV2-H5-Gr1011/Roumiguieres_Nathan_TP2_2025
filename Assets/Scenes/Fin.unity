@@ -1647,7 +1647,7 @@ MonoBehaviour:
   m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4272,7 +4272,7 @@ MonoBehaviour:
   m_text: 'Nombre de dechets compostes ramasses : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6601,7 +6601,7 @@ MonoBehaviour:
   m_text: 'Nombre de dechets normaux ramasses : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6830,7 +6830,7 @@ MonoBehaviour:
   m_text: 'Nombres de recyclage remplies : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9434,7 +9434,7 @@ MonoBehaviour:
   m_text: 'Nombres de poubelles remplies : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -18989,7 +18989,7 @@ MonoBehaviour:
   m_text: 'Nombres de compostes remplies : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -21736,7 +21736,7 @@ MonoBehaviour:
   m_text: 'Nombre de dechets recycle ramasses : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -23333,7 +23333,7 @@ MonoBehaviour:
   m_text: Bravo ! Tu viens de sauver la Terre !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
-  m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,
+  m_sharedMaterial: {fileID: -8265542619757118250, guid: 905a200e42815f24c95524ccad6b89a1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
