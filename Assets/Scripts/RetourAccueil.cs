@@ -7,6 +7,6 @@ public class RetourAccueil : MonoBehaviour
 {
     public void RevenirAccueil()
     {
-        SceneManager.LoadScene("Accueil"); // Remplace "Accueil" par le nom exact de ta scène d'accueil
+        SceneManager.LoadScene("Accueil");
     }
 }

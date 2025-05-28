@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
 
     public int score = 0;
 
-    public TextMeshProUGUI scoreText; // glisser ici le texte
+    public TextMeshProUGUI scoreText;
 
     void Awake()
     {

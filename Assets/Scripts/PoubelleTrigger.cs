@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PoubelleTrigger : MonoBehaviour
 {
-    public ChangerScene scriptPorte;          // Assigner la porte dans l’inspecteur
-    public RecupDechetsNiv1 recupDechets;     // Assigner le GameObject avec ce script
+    public ChangerScene scriptPorte;
+    public RecupDechetsNiv1 recupDechets;
 
     private void OnTriggerEnter(Collider other)
     {

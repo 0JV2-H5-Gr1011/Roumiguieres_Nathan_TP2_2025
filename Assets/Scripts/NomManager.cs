@@ -11,8 +11,5 @@ public class NomManager : MonoBehaviour
     {
         string texteEntre = champNom.text;
         Debug.Log("Texte saisi : " + texteEntre);
-
-        // Tu peux l’utiliser comme tu veux, par ex. :
-        // Afficher dans un autre champ, l’envoyer au GameManager, etc.
     }
 }

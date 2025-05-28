@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SonPoubelle : MonoBehaviour
 {
-    public AudioSource audioSource;  // À assigner dans l'inspector (un AudioSource avec le son)
-    public AudioClip sonPoubelle;    // Le clip audio à jouer
+    public AudioSource audioSource;
+    public AudioClip sonPoubelle;
 
     void OnTriggerEnter(Collider other)
     {

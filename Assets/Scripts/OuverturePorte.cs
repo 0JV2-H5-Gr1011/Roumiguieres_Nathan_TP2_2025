@@ -18,13 +18,13 @@ public class OuverturePorte : MonoBehaviour
 
             if (totalDechets >= totalDechetsRequis)
             {
-                Debug.Log("Ouverture porte déclenchée !");
+                Debug.Log("Ouverture porte déclenchée");
                 porteGaucheAnimator.SetTrigger("Ouvrir");
                 porteDroiteAnimator.SetTrigger("Ouvrir");
             }
             else
             {
-                Debug.Log("Il manque des déchets !");
+                Debug.Log("Il manque des déchets");
             }
         }
     }

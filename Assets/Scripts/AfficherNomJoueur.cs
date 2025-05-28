@@ -5,7 +5,7 @@ using TMPro;
 
 public class AfficherNomJoueur : MonoBehaviour
 {
-    public TextMeshProUGUI texteNom; // L’élément où tu veux afficher le nom
+    public TextMeshProUGUI texteNom;
 
     void Start()
     {

@@ -7,7 +7,7 @@ using TMPro;
 
 public class TimerSceneChanger : MonoBehaviour
 {
-    public float timeRemaining = 600f; // 10 minutes = 600 secondes
+    public float timeRemaining = 600f;
     public TextMeshProUGUI timerText;
 
     private bool timerIsRunning = true;
@@ -26,7 +26,7 @@ public class TimerSceneChanger : MonoBehaviour
                 timerIsRunning = false;
                 timeRemaining = 0;
                 UpdateTimerDisplay(timeRemaining);
-                SceneManager.LoadScene("Fin"); // Remplace "Fin" par le nom exact de ta scène
+                SceneManager.LoadScene("Fin");
             }
         }
     }

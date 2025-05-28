@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PoubelleOuvrePorte : MonoBehaviour
 {
-    public GameObject porteGauche;  // À assigner dans l’inspecteur
-    public GameObject porteDroite;  // À assigner dans l’inspecteur
-    public Animator animGauche;     // Si tu veux jouer une anim
+    public GameObject porteGauche;
+    public GameObject porteDroite;
+    public Animator animGauche;
     public Animator animDroite;
 
     private bool porteOuverte = false;
@@ -18,8 +18,6 @@ public class PoubelleOuvrePorte : MonoBehaviour
             if (RecupDechets.scoreRecyclage + RecupDechets.scoreComposte + RecupDechets.scorePoubelle >= 8)
             {
                 porteOuverte = true;
-
-                // Si tu utilises une animation
                 if (animGauche != null && animDroite != null)
                 {
                     animGauche.SetTrigger("Ouvrir");
@@ -27,16 +25,15 @@ public class PoubelleOuvrePorte : MonoBehaviour
                 }
                 else
                 {
-                    // Sinon on peut désactiver les portes ou les faire pivoter
                     porteGauche.SetActive(false);
                     porteDroite.SetActive(false);
                 }
 
-                Debug.Log("La porte s'ouvre !");
+                Debug.Log("La porte s'ouvre");
             }
             else
             {
-                Debug.Log("Tu n'as pas assez de déchets !");
+                Debug.Log("Tu n'as pas assez de déchets");
             }
         }
     }

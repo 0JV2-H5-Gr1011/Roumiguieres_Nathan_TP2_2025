@@ -8,7 +8,7 @@ public class RecupDechetsNiv1 : MonoBehaviour
 {
     public int score = 0;
     public TextMeshProUGUI scoreText;
-    public GameObject poubelle; // Assigner dans l'inspecteur
+    public GameObject poubelle;
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class RecupDechetsNiv1 : MonoBehaviour
 
             if (score >= 8)
             {
-                poubelle.SetActive(true); // On active la poubelle
+                poubelle.SetActive(true);
             }
         }
     }

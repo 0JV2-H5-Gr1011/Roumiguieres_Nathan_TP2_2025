@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // si tu veux relancer ou changer de scène
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class VieJoueur : MonoBehaviour
@@ -13,7 +13,7 @@ public class VieJoueur : MonoBehaviour
     public TextMeshProUGUI viesText;
 
     public AudioSource audioSource;
-    public AudioClip sonDegat; // Drag ton son ici dans l'inspector
+    public AudioClip sonDegat;
 
     void Start()
     {

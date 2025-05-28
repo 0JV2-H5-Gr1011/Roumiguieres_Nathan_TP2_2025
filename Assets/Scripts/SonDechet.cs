@@ -15,8 +15,6 @@ public class SonDechet : MonoBehaviour
             {
                 audioSource.PlayOneShot(sonDechet);
             }
-            // Ici tu peux faire ta logique de ramassage, destruction, etc.
-            // Destroy(gameObject);
         }
     }
 }

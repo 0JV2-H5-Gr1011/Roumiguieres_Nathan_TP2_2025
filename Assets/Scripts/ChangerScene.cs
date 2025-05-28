@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangerScene : MonoBehaviour
 {
-    public string nomScene;            // Nom exact de la scène cible à mettre dans l’inspecteur
+    public string nomScene;
     public bool estDeverrouillee = false;
 
     private void OnTriggerEnter(Collider other)
