@@ -6598,7 +6598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nombre de dechets normaux ramsses : 0'
+  m_text: 'Nombre de dechets normaux ramasses : 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 905a200e42815f24c95524ccad6b89a1, type: 2}
   m_sharedMaterial: {fileID: -6411152552065777344, guid: 905a200e42815f24c95524ccad6b89a1,

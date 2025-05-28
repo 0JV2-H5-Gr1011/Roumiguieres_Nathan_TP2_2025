@@ -9,6 +9,7 @@ TagManager:
   - Recyclage
   - Poubelle
   - Composte
+  - Ennemi
   layers:
   - Default
   - TransparentFX
