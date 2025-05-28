@@ -9681,10 +9681,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c4195ec95a9a324990bd60d27585134,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 971689465}
     - targetCorrespondingSourceObject: {fileID: 2731908237332307219, guid: 5c4195ec95a9a324990bd60d27585134,
         type: 3}
       insertIndex: -1
@@ -15067,22 +15063,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 486636893}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &971689465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971689463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f9ab207db1331489b20e5058bd2e5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  porteGauche: {fileID: 1461546973}
-  porteDroite: {fileID: 1306662532}
-  animGauche: {fileID: 0}
-  animDroite: {fileID: 0}
 --- !u!1 &981340927
 GameObject:
   m_ObjectHideFlags: 0
@@ -19015,12 +18995,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295710779}
   m_Mesh: {fileID: 8917773519796319193, guid: f4e80e0e2fa52fa4b92e4c074d52e803, type: 3}
---- !u!1 &1306662532 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6185937851196024403, guid: ea51da4cf1acfea49802848e749a5a13,
-    type: 3}
-  m_PrefabInstance: {fileID: 877703072}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1318703284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1171627040053429581, guid: 9f4eb6324d951e44db05ce09a003bb0f,
@@ -20678,12 +20652,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453577385}
   m_Mesh: {fileID: -9040263976320041167, guid: f4e80e0e2fa52fa4b92e4c074d52e803, type: 3}
---- !u!1 &1461546973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6185937851196024413, guid: ea51da4cf1acfea49802848e749a5a13,
-    type: 3}
-  m_PrefabInstance: {fileID: 877703072}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1463503331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9148816009768765450, guid: f4e80e0e2fa52fa4b92e4c074d52e803,
@@ -21240,7 +21208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptPorte: {fileID: 877703074}
-  recupDechets: {fileID: 0}
+  recupDechets: {fileID: 1722647184}
 --- !u!65 &1578139806
 BoxCollider:
   m_ObjectHideFlags: 0
