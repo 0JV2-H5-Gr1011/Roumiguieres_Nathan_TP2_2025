@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -11,18 +11,21 @@ public class VolumeController : MonoBehaviour
 
     void Start()
     {
-        // Définir une valeur de départ par défaut
-        volumeSlider.value = 0.8f;
-        SetVolume(volumeSlider.value);
+        // Récupère la valeur sauvegardée ou met 0.8 par défaut
+        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.8f);
+        volumeSlider.value = savedVolume;
+        SetVolume(savedVolume);
 
-        // Ajouter l'écouteur d'événement
         volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
     public void SetVolume(float value)
     {
-        // Convertir 0.0–1.0 vers dB (-80 à 0)
         float volumeDB = Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20;
         mixer.SetFloat("Volume", volumeDB);
+
+        // Sauvegarde la valeur pour les prochaines scènes
+        PlayerPrefs.SetFloat("Volume", value);
+        PlayerPrefs.Save();
     }
-}
+}*/
