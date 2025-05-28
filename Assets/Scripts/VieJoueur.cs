@@ -7,10 +7,13 @@ using TMPro;
 public class VieJoueur : MonoBehaviour
 {
     public int vies = 5;
-    public float delaiInvincibilite = 2f; // Temps invincible après un coup
+    public float delaiInvincibilite = 2f;
     private bool estInvincible = false;
 
-    public TextMeshProUGUI viesText; // À lier dans l’inspector
+    public TextMeshProUGUI viesText;
+
+    public AudioSource audioSource;
+    public AudioClip sonDegat; // Drag ton son ici dans l'inspector
 
     void Start()
     {
@@ -22,14 +25,18 @@ public class VieJoueur : MonoBehaviour
         if (other.CompareTag("Ennemi") && !estInvincible)
         {
             vies--;
-            Debug.Log("Touché ! Vies restantes : " + vies);
+
+            // Joue le son
+            if (sonDegat != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(sonDegat);
+            }
+
             MettreAJourUI();
 
             if (vies <= 0)
             {
-                Debug.Log("Game Over !");
-                // Recharge la scène actuelle
-                SceneManager.LoadScene("FinPerdu");
+                SceneManager.LoadScene("Fin");
             }
             else
             {
