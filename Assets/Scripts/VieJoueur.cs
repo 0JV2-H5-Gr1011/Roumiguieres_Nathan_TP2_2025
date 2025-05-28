@@ -36,7 +36,7 @@ public class VieJoueur : MonoBehaviour
 
             if (vies <= 0)
             {
-                SceneManager.LoadScene("Fin");
+                SceneManager.LoadScene("FinPerdu");
             }
             else
             {
