@@ -31160,9 +31160,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Niveau 1: Vous Incarnerez le personnage Alex, devrez ramasser tous les
-    dechets present dans un laboratioire important du gouvernement et les jeter a
-    la poubelle pour sortir du laboratoire.
+  m_Text: 'Niveau 1: Vous incarnerez le personnage Alex, vous devrez ramasser tous
+    les dechets present dans un laboratoire important du gouvernement et les jeter
+    a la poubelle pour sortir du laboratoire.
 
 '
 --- !u!222 &2131054396
