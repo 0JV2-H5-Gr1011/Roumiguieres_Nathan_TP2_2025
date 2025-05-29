@@ -26,7 +26,6 @@ public class VieJoueur : MonoBehaviour
         {
             vies--;
 
-            // Joue le son
             if (sonDegat != null && audioSource != null)
             {
                 audioSource.PlayOneShot(sonDegat);

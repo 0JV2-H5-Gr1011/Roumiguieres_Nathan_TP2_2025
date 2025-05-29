@@ -12,7 +12,6 @@ public class Ennemi1 : MonoBehaviour
     void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-
     }
 
     void Update()
